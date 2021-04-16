@@ -1,3 +1,12 @@
+This fork of `vim-autoformat` **only** does:
+
+- When searching for `.clang-format`, not only search `./.clang-format`, but also `~/.clang-format`, due to the bad
+  default options of clang-format.
+
+The below is the original README:
+
+---
+
 # vim-autoformat
 
 Format code with one button press (or automatically on save).
