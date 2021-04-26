@@ -1,7 +1,7 @@
 This fork of `vim-autoformat` **only** does:
 
-- When searching for `.clang-format`, not only search `./.clang-format`, but also `~/.clang-format`, due to the bad
-  default options of clang-format.
+- When searching for `.clang-format`, not only search `./.clang-format`, but also `~/.clang-format`, due to the bad default options of clang-format
+- Add separated option to set global column width limit, other than use `textwidth`, due to the side effect of `textwidth`
 
 The below is the original README:
 
